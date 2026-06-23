@@ -12,7 +12,7 @@ Two companion papers:
 
 ## The image
 
-![Transformer Weight Space Manifold](assets/manifold_hires_heatmap.png)
+![Transformer Weight Space Manifold](manifold_hires_heatmap.png)
 
 This is the transformer's weight space, rendered as a 2D surface. X-axis: angular coordinate J₁ (0°–360°). Y-axis: spectral entropy Ksi (0–1). Each cell shows what language lives at that address — measured by probing the LM_Head weight matrix directly, without running a full transformer forward pass.
 
