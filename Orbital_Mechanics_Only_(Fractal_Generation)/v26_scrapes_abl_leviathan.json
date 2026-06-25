@@ -1,0 +1,54 @@
+{
+  "trough": {
+    "threshold_75pct_vort": 935.2193,
+    "n_supra": 45,
+    "connectivity_ratio": 0.6444,
+    "shuffled_connectivity_ratio": 0.4667,
+    "status": "CHANNELS"
+  },
+  "scrapes": {
+    "n_covered": 178,
+    "n_supra": 45,
+    "r_speed_channel": 0.2251,
+    "speed_null_95ci": [
+      -0.1457,
+      0.1242
+    ],
+    "mean_speed_channel": 0.41784,
+    "mean_speed_speck": 0.32171,
+    "r_count_channel": -0.0213,
+    "mean_count_channel": 2376.48,
+    "mean_count_speck": 2862.91,
+    "size_classes": {
+      "big_troughs(>=6)": 1,
+      "shallow_channels(3-5)": 4,
+      "specks(<3)": 15
+    },
+    "component_sizes_sorted": [
+      14,
+      5,
+      4,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "H_SKIP_001_skipping": "NULL",
+    "H_SKIP_002_density": "no",
+    "VERDICT": "NEITHER"
+  },
+  "kappa": 0.4784
+}

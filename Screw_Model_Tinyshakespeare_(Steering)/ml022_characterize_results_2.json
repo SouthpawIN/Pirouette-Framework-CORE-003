@@ -1,0 +1,141 @@
+{
+  "A": {
+    "baseline_T0.7": " Henry was her odder diet?\n\nWARWICK:\nHow now, she hath not present a Richard's name,\nWhose curse burns in the earth as the face,\nHe smiles the fatal train to the crown?\nIf he could speak the very tears to me,\nAnd since it be not means by the rock,\nAnd therein be so well dear and storm.\n\nSICINIUS:\nAn",
+    "model_A_T0.7": " the field?\n\nDUKE VINCENTIO:\nThen fear not to the heart; were it between ere she,\nThat cheers, since the field, pardon of the power,\nWhen the present that title the attended law,\nThe world that answer and the which sun\nWill set on the tent of this appear with me:\nI came apparel and fetch me to my re",
+    "model_B_T0.7": " her revenue the red;\nThis will I do to possess it.\n\nBENVOLIO:\nLet me hear this tongue of the lady world,\nIf I saw your hands that lies were our love's earth,\nAnd shall stoop the bosom free of the rest;\nNot be a traitor of the season of this is\nAbout at the prettiested cheek: she begun,\nAnd stands t",
+    "baseline_T1.0": " hell? What, I hope!\n\nJULIET:\nAnd so her corn and your mother's falch taken to\nspeak fantashion.\n\nClown:\nPray you, my lord, the Buckingham can make to-morrow\nme, Bolingbrokement and oul Yorkshire.\n\nKING RICHARD III:\nSay thou have well his news? Lay, ho\nsee member to his; and yet then bear them from ",
+    "model_A_T1.0": " Hereford?\n\nHENRY VI:\nNo more, my lord.\n\nMARCIUS:\nIf it well not seem his son's honest must stay\nThat he will not partly below.\n\nSICINIUS:\nWe crave him: must plant\nIf any thing converited; but who come\nnot mirth possess. Come we into the act,\nAs is not mean, that makes me from thee pace:\nOne ere fel",
+    "model_B_T1.0": " mine honour,\nThat my heavy instant staff, like an Edward!\nEither Hereford George! how art thou speak?\n\nBUCKINGHAM:\nHarry, pay!' I proMess'd Richard,' a penetent:\nAnd, beyoa mocket he may serve thee begins,\nAnd hath reviceIing; Derby my wrongs together.\nSaw that your grace hath heart-hearted a devil"
+  },
+  "B": {
+    "baseline": {
+      "science": 23.92733100585089,
+      "legal": 7.347763646179141,
+      "mathematical": 12.116503865194355
+    },
+    "model_A": {
+      "science": 24.288711136648836,
+      "legal": 6.744014409659103,
+      "mathematical": 12.206842270746842
+    },
+    "model_B": {
+      "science": 25.048574561714048,
+      "legal": 8.066429288337943,
+      "mathematical": 12.944032708265208
+    }
+  },
+  "C": {
+    "model_A": {
+      "magnitudes": [
+        0.3741779327392578,
+        0.371019184589386,
+        0.35162076354026794,
+        0.3466287851333618,
+        0.346640408039093,
+        0.35445436835289,
+        0.3616520166397095,
+        0.3798014521598816
+      ],
+      "inter_cosines": [
+        0.9999999403953552,
+        1.0,
+        1.0,
+        0.9999998807907104,
+        0.9999998807907104,
+        0.9999998807907104,
+        0.9999999403953552
+      ],
+      "embed_alignment": [
+        0.026763513684272766,
+        0.026763491332530975,
+        0.026763498783111572,
+        0.02676350623369217,
+        0.026763498783111572,
+        0.026763498783111572,
+        0.026763498783111572,
+        0.026763498783111572
+      ]
+    },
+    "model_B": {
+      "magnitudes": [
+        0.3865411877632141,
+        0.3731381893157959,
+        0.36058175563812256,
+        0.3554689288139343,
+        0.3554181456565857,
+        0.36625468730926514,
+        0.3728192150592804,
+        0.3876531720161438
+      ],
+      "inter_cosines": [
+        1.0,
+        1.0,
+        1.0,
+        0.9999999403953552,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "embed_alignment": [
+        -0.12086817622184753,
+        -0.12086816132068634,
+        -0.12086816132068634,
+        -0.12086816132068634,
+        -0.12086816132068634,
+        -0.12086816132068634,
+        -0.12086817622184753,
+        -0.12086816132068634
+      ]
+    }
+  },
+  "D": {
+    "log": [
+      {
+        "step": 0,
+        "val_loss": 1.4971923023462295
+      },
+      {
+        "step": 500,
+        "val_loss": 1.5215607166290284
+      },
+      {
+        "step": 1000,
+        "val_loss": 1.5214977204799651
+      },
+      {
+        "step": 1500,
+        "val_loss": 1.52880297601223
+      },
+      {
+        "step": 2000,
+        "val_loss": 1.5352308571338653
+      },
+      {
+        "step": 2500,
+        "val_loss": 1.5260986268520356
+      },
+      {
+        "step": 3000,
+        "val_loss": 1.5770297586917876
+      },
+      {
+        "step": 3500,
+        "val_loss": 1.5495035380125046
+      },
+      {
+        "step": 4000,
+        "val_loss": 1.5584665447473527
+      },
+      {
+        "step": 4500,
+        "val_loss": 1.5598155200481414
+      },
+      {
+        "step": 5000,
+        "val_loss": 1.5735906481742858
+      }
+    ],
+    "late_std": 0.020201494259022183,
+    "verdict": "STABLE LIMIT CYCLE"
+  }
+}
