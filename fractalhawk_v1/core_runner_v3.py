@@ -82,7 +82,11 @@ BASIS_SEED = 1337
 # known-good starting point (angles stay angles, E stays small, etc.).
 HH_DIMS    = ['J1', 'J2', 'Phi', 'E', 'Ksi']
 HH_DEFAULT = torch.tensor([math.radians(14.0), 0.0, math.radians(89.3), 0.05, 0.1])
-HH_RANGE   = torch.tensor([math.pi, 0.5, math.pi, 0.2, 2.0])
+HH_RANGE   = torch.tensor([math.pi, 2.0, math.pi, 0.2, 2.0])
+# J2 range widened 0.5→2.0: the registers README confirmed J2 saturated its tanh
+# bound (pinned at 0.4999+) across nearly all pirouette samples — a saturated
+# dimension is a dead gradient direction. The wider range gives J2 room to
+# differentiate without changing its role (still controls log_sigma_L magnitude).
 
 
 # ─── Locked-down shared machinery (unchanged from v2) ─────────────────────────
